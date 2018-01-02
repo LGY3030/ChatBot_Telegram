@@ -3,7 +3,7 @@
 
 # <font size=４>Prerequisite #
 <font size=３>Python 3.4.0
-# <font size=４>Install Dependency#
+# <font size=２>Install Dependency#
  <pre> <code> 
 <font size=３>py -m pip install transitions==0.5.0<br />
 <font size=３>py -m pip install Flask==0.12.1<br />
