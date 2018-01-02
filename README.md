@@ -1,5 +1,6 @@
-<font size=４>A telegram bot based on a finite state machine
-##<font size=５>Setup##
+<font size=４>A telegram bot based on a finite state machine<br />
+<a><font size=５>**Setup**</a>
+---------------------------------------
 # <font size=４>Prerequisite #
 <font size=３>Python 3.4.0
 # <font size=４>Install Dependency#
@@ -20,9 +21,11 @@
 # <font size=４>Run the sever #
 <pre> <code><font size=4>py app.py
 </code></pre>
-##<font size=５>Finite State Machine##
+<a><font size=５>**Finite State Machine**</a>
+---------------------------------------
 ![](https://i.screenshot.net/jrqxlsp)
-##<font size=５>Usage##
+<a><font size=５>**Usage**</a>
+---------------------------------------
 <font size=３>The initial state is set to user.
 
 Every time user state is triggered to advance to another state, it will go_back to user state after the bot replies corresponding message.
@@ -77,5 +80,6 @@ Every time user state is triggered to advance to another state, it will go_back 
 　　　■reply:show you a joke<br />
 　○input:"turbo"<br />
 　　　■reply:show you a joke<br /><br />
-##<font size=５>Author##
+<a><font size=５>**Author**</a><br />
+---------------------------------------
 <font size=３>LGY3030
