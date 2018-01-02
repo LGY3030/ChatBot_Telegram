@@ -22,7 +22,7 @@
 <pre> <code><font size=4>py app.py
 </code></pre>
 ## <font size=５>2.　Finite State Machine ##<br />
-![](https://drp.io/i/HyOAlDFXG)<br />
+![](https://github.com/LGY3030/Chat-Bot-on-Telegram/blob/master/img/show-fsm.png)<br />
 ## <font size=５>3.　Usage ##<br />
 <font size=３>The initial state is set to user.
 
