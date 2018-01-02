@@ -3,7 +3,7 @@
 
 # <font size=４>Prerequisite #
 <font size=３>Python 3.4.0
-# <font size=２>Install Dependency#
+# <font size=２>Install Dependency　#
  <pre> <code> 
 <font size=３>py -m pip install transitions==0.5.0<br />
 <font size=３>py -m pip install Flask==0.12.1<br />
@@ -21,9 +21,9 @@
 # <font size=４>Run the sever #
 <pre> <code><font size=4>py app.py
 </code></pre>
-##<font size=５>Finite State Machine##
+##　<font size=５>Finite State Machine　##<br />
 ![](https://i.screenshot.net/jrqxlsp)
-##<font size=５>Usage##
+##　<font size=５>Usage　##
 <font size=３>The initial state is set to user.
 
 Every time user state is triggered to advance to another state, it will go_back to user state after the bot replies corresponding message.
@@ -78,5 +78,5 @@ Every time user state is triggered to advance to another state, it will go_back 
 　　　■reply:show you a joke<br />
 　○input:"turbo"<br />
 　　　■reply:show you a joke<br /><br />
-##<font size=５>Author##
+##　<font size=５>Author　##
 <font size=３>LGY3030
