@@ -22,7 +22,7 @@
 <pre> <code><font size=4>py app.py
 </code></pre>
 ## <font size=５>2.　Finite State Machine ##<br />
-![](https://i.screenshot.net/jrqxlsp)<br />
+![](https://drp.io/i/HyOAlDFXG)<br />
 ## <font size=５>3.　Usage ##<br />
 <font size=３>The initial state is set to user.
 
