@@ -1,29 +1,29 @@
-<font size=5>A telegram bot based on a finite state machine
-##<font size=6>Setup##
-# <font size=5>Prerequisite #
-<font size=4>Python 3.4.3
-# <font size=5>Install Dependency#
+<font size=４>A telegram bot based on a finite state machine
+##<font size=５>Setup##
+# <font size=４>Prerequisite #
+<font size=３>Python 3.4.0
+# <font size=４>Install Dependency#
  <pre> <code> 
-<font size=4>py -m pip install transitions==0.5.0<br />
-<font size=4>py -m pip install Flask==0.12.1<br />
-<font size=4>py -m pip install pygraphviz==1.3.1<br />
-<font size=4>py -m pip install python-telegram-bot==5.3.0<br />
+<font size=３>py -m pip install transitions==0.5.0<br />
+<font size=３>py -m pip install Flask==0.12.1<br />
+<font size=３>py -m pip install pygraphviz==1.3.1<br />
+<font size=３>py -m pip install python-telegram-bot==5.3.0<br />
 </code></pre>
-# <font size=5>Secret Data #
+# <font size=４>Secret Data #
 <font size=4>**API TOKEN** and **WEBHOOK URL** in app.py MUST be set to proper values. Otherwise, you might not be able to run your code.
-# <font size=5>Run Locally #
-<font size=4>You can either setup https server or using **ngrok** as a proxy.
+# <font size=４>Run Locally #
+<font size=３>You can either setup https server or using **ngrok** as a proxy.
 <pre> <code><font size=4>ngrok http 5000
 </code></pre>
-<font size=4>After that, **ngrok **would generate a https URL.<br />
-<font size=4>You should set **WEBHOOK URL** (in app.py) to your-https-URL/hook.<br />
-# <font size=5>Run the sever #
+<font size=３>After that, **ngrok **would generate a https URL.<br />
+<font size=３>You should set **WEBHOOK URL** (in app.py) to your-https-URL/hook.<br />
+# <font size=４>Run the sever #
 <pre> <code><font size=4>py app.py
 </code></pre>
-##<font size=6>Finite State Machine##
+##<font size=５>Finite State Machine##
 ![](https://i.screenshot.net/jrqxlsp)
-##<font size=6>Usage##
-<font size=4>The initial state is set to user.
+##<font size=５>Usage##
+<font size=３>The initial state is set to user.
 
 Every time user state is triggered to advance to another state, it will go_back to user state after the bot replies corresponding message.
 
@@ -77,5 +77,5 @@ Every time user state is triggered to advance to another state, it will go_back 
 　　　■reply:show you a joke<br />
 　○input:"turbo"<br />
 　　　■reply:show you a joke<br /><br />
-##<font size=6>Author##
-<font size=4>LGY3030
+##<font size=５>Author##
+<font size=３>LGY3030
