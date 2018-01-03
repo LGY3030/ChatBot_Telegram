@@ -23,7 +23,7 @@
 </code></pre>
 ## <font size=５>2.　Finite State Machine ##
 由於似乎是我的程式碼state太多,所以產生fsm時一直出現Internal Server Error.The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application<br />
-因此下面的fsm圖為刪減部分state的fsm<br />
+因此下面的fsm圖為刪減部分state的fsm<br /><br />
 ![](https://github.com/LGY3030/Chat-Bot-on-Telegram/blob/master/img/show-fsm.png)<br />
 ## <font size=５>3.　Usage ##
 <font size=３>The initial state is set to user.
