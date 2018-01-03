@@ -18,7 +18,7 @@ for i in datajson['tunnels']:
     msg =i['public_url']+'/hook'
 
 API_TOKEN = '454897554:AAEk7aa_dRdsUMTDWvhHZF0kAWpF1vPlM0I'
-WEBHOOK_URL =msg
+WEBHOOK_URL = msg
 
 app = Flask(__name__)
 bot = telegram.Bot(token=API_TOKEN)
