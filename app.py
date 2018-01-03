@@ -6,9 +6,19 @@ from flask import Flask, request, send_file
 
 from fsm import TocMachine
 
+import json
+import os 
+
+os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")
+
+with open('tunnels.json') as data_file:
+    datajson = json.load(data_file)
+
+for i in datajson['tunnels']:
+    msg =i['public_url']+'/hook'
 
 API_TOKEN = '454897554:AAEk7aa_dRdsUMTDWvhHZF0kAWpF1vPlM0I'
-WEBHOOK_URL = 'https://1ef44385.ngrok.io/hook'
+WEBHOOK_URL =msg
 
 app = Flask(__name__)
 bot = telegram.Bot(token=API_TOKEN)
@@ -548,3 +558,4 @@ def show_fsm():
 if __name__ == "__main__":
     _set_webhook()
     app.run()
+
