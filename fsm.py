@@ -751,7 +751,8 @@ class TocMachine(GraphMachine):
         print('Leaving stateChat3')
 
     def on_enter_stateChat4(self, update):
-        update.message.reply_text("Congratulations!\nhttps://pbs.twimg.com/media/DB4AHDFU0AEu6G4.jpg")
+        update.message.reply_text("Congratulations!\n")
+        update.message.reply_photo('https://pbs.twimg.com/media/DB4AHDFU0AEu6G4.jpg')
         self.go_back(update)
 
     def on_exit_stateChat4(self, update):
@@ -777,3 +778,4 @@ class TocMachine(GraphMachine):
 
     def on_exit_stateJokeTurbo(self, update):
         print('Leaving stateJokeTurbo')
+
