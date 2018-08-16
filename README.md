@@ -1,4 +1,4 @@
-<font size=４>A telegram bot based on a finite state machine<br />
+<font size=４>A telegram bot based on a finite state machine (Python)<br />
 ## <font size=５>1.　Setup ##
 
 # <font size=４>Prerequisite #
